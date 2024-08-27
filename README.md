@@ -25,8 +25,8 @@ The **Academic Planning Assistant** is a web-based service that helps students e
 1. **Major Recommendations**: Uses AI to recommend suitable academic majors based on user interests.
 2. **Course Listings**: Displays courses by semester, organized based on the selected major, including prerequisites.
 3. **Flowchart Visualization**: Generates an interactive flowchart for students to visualize course sequences and dependencies.
-4. **Save and Compare (In Progress)**: Users can save their selected majors, compare different majors, and download or email their personalized academic plan.
-5. **Web-Based (In Progress)**: Fully online service—no software downloads or database setups are required by the user.
+4. **Save and Compare (Future)**: Users can save their selected majors, compare different majors, and download or email their personalized academic plan.
+5. **Web-Based (Future)**: Fully online service—no software downloads or database setups are required by the user.
 
 ---
 
@@ -43,7 +43,7 @@ The **Academic Planning Assistant** is a web-based service that helps students e
    - **jsPlumb**: Library for generating flowcharts.
 
 3. **Hosting**:
-   - The entire service is hosted online (e.g., AWS, Heroku, or DigitalOcean), allowing users to access it via a web browser.
+   - The entire service is planned to be hosted online (AWS), allowing users to access it via a web browser.
 
 ---
 
@@ -55,7 +55,7 @@ The Academic Planning Assistant works in three key steps:
 3. **Course Planning**: Once a major is selected, the system displays the relevant courses by semester and presents them in an interactive flowchart. The user can explore the courses, view prerequisites, and save or download their academic plan.
 
 ### Fully Hosted Service
-The backend databases (PostgreSQL for course and major data, MongoDB for session data) are fully managed on the server. Users only need to access the web-based service—no local installation or setup is required.
+The backend databases (PostgreSQL for course and major data, MongoDB for session data) are planned to be fully managed on the server. Users only need to access the web-based service—no local installation or setup is required.
 
 ---
 
@@ -63,21 +63,21 @@ The backend databases (PostgreSQL for course and major data, MongoDB for session
 
 ### Step 1: Major Recommendations
 
-- Users input their interests (e.g., "I enjoy video game development").
+- Users input their interests (e.g., "I enjoy video game development, what major should I pursue?").
 - The AI model analyzes the input and suggests majors that align with those interests.
 - The recommendations are displayed as interactive cards, where users can click to learn more about each major.
 
 ### Step 2: Course Listings
 
 - Once a major is selected, the user is shown the relevant courses for that major, organized by semester.
-- Each semester's courses are displayed in an accordion-style list, allowing the user to expand and collapse sections.
+- Each semester's courses are displayed. (Future: Will be in an accordion-style list, allowing the user to expand and collapse sections.)
 
 ### Step 3: Flowchart Display
 
 - A dynamic flowchart is generated, showing the sequence of courses and their prerequisites.
-- The flowchart is interactive: users can drag elements, and hovering over a course provides more information about it.
+- The flowchart is interactive: users can drag elements. (Future: hovering over a course provides more information about it.)
 
-### Step 4: Save and Compare
+### Step 4: Save and Compare (Future)
 
 - Users can save multiple majors and compare their courses, duration, and core requirements.
 - A downloadable PDF summary is available, as well as the option to email the summary to themselves.
@@ -94,18 +94,17 @@ The backend databases (PostgreSQL for course and major data, MongoDB for session
 │   ├── script.js                # Frontend logic for interactivity
 ├── templates/                   # HTML templates
 │   └── index.html               # Main HTML page
-├── requirements.txt             # Python dependencies
 ├── README.md                    # This README file
 ```
 
 ---
 
-## Live Service
+## Live Service (Future)
 
-The **Academic Planning Assistant** is hosted online, meaning users only need to visit the web URL to interact with the system. All major recommendations, course data, and flowchart visualizations are handled on the backend, so users don’t need to download or set up anything locally.
+The **Academic Planning Assistant** is planned to be hosted online, meaning users only need to visit the web URL to interact with the system. All major recommendations, course data, and flowchart visualizations are handled on the backend, so users don’t need to download or set up anything locally.
 
 ### Accessing the Service
-Simply visit the URL to start exploring major recommendations and planning your courses. All user sessions are managed in the cloud, and no personal downloads are required.
+Simply visit the URL to start exploring major recommendations and planning your courses. All user sessions will be managed in the cloud, and no personal downloads are required.
 
 ---
 
@@ -145,5 +144,3 @@ Simply visit the URL to start exploring major recommendations and planning your 
 - **jsPlumb** for interactive flowchart rendering.
 - **Flask** for the backend infrastructure and routing.
 - **PostgreSQL** for handling course and major data.
-
----
