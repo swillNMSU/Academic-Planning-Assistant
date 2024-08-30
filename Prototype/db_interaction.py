@@ -58,25 +58,15 @@ def get_course_recommendations(major):
     if conn:
         try:
             with conn.cursor() as cur:
-                # cur.execute("""
-                # SELECT c.course_name, c.course_code
-                # FROM courses c
-                # JOIN degree_requirements dr ON c.course_id = dr.course_id
-                # WHERE dr.major_id = (
-                #   SELECT major_id FROM majors WHERE major_name = %s
-                # )
-                # """, (major,))
-                # recommendations = cur.fetchall()
                 cur.execute("""
                 SELECT 
-                    c.course_name, 
-                    c.course_code, 
+                    c.name AS course_name, 
                     s.semester_name, 
-                    scm.prerequisites
+                    NULL AS prerequisites -- Placeholder if prerequisites are added later
                 FROM courses c
-                JOIN semester_course_mapping scm ON c.course_id = scm.course_id
-                JOIN semesters s ON scm.semester_id = s.semester_id
-                WHERE scm.major_id = (
+                JOIN course_semester_mapping csm ON c.course_id = csm.course_id
+                JOIN semesters s ON csm.semester_id = s.semester_id
+                WHERE csm.major_id = (
                     SELECT major_id FROM majors WHERE major_name = %s
                 )
                 ORDER BY s.semester_id;
@@ -84,19 +74,16 @@ def get_course_recommendations(major):
                 
                 # Fetch all rows
                 rows = cur.fetchall()
-                print("Fetched rows:", rows)
 
                 # Structure the recommendations by semester
                 for row in rows:
-                    course_name, course_code, semester_name, prerequisites = row
-                    print(f"Processing row: {row}")
+                    course_name, semester_name, prerequisites = row
                     if semester_name not in recommendations:
                         recommendations[semester_name] = []
                     
                     recommendations[semester_name].append({
                         "course_name": course_name,
-                        "course_code": course_code,
-                        "prerequisites": prerequisites
+                        "prerequisites": prerequisites  # This is just a placeholder, update if necessary
                     })
         except Exception as e:
             print(f"Error fetching course recommendations for {major}: {e}")

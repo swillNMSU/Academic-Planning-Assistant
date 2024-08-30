@@ -78,7 +78,7 @@ function createFlowchart(semesters) {
                 ? course.prerequisites.join(', ')
                 : 'None';
             
-            semesterContent += `${courseCode}: ${courseName} (Prerequisites: ${prerequisites})<br>`;
+            semesterContent += `${courseName} (Prerequisites: ${prerequisites})<br>`;
         });
 
         semesterDiv.innerHTML = semesterContent; // Add the semester and course details to the div

@@ -23,10 +23,9 @@ def process_query_with_bart(query):
             response_text += f"\n{semester}:\n"
             for course in courses:
                 course_name = course['course_name']
-                course_code = course['course_code']
                 prerequisites = course['prerequisites']
                 prereq_text = ', '.join(str(p) for p in prerequisites) if prerequisites else 'None'
-                response_text += f"- {course_code}: {course_name} (Prerequisites: {prereq_text})\n"
+                response_text += f"- {course_name} (Prerequisites: {prereq_text})\n"
     else:
         response_text = f"Sorry, I couldn't find course recommendations for the major in {major}."
 
