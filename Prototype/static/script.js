@@ -75,7 +75,7 @@ function createFlowchart(semesters) {
             const courseName = course.course_name;
             const courseCode = course.course_code;
             const prerequisites = course.prerequisites && course.prerequisites.length > 0
-                ? course.prerequisites.join(', ')
+                ? course.prerequisites
                 : 'None';
             
             semesterContent += `${courseName} (Prerequisites: ${prerequisites})<br>`;

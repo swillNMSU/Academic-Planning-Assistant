@@ -22,7 +22,7 @@ def process_major_choice(major):
             for course in courses:
                 course_name = course['course_name']
                 prerequisites = course['prerequisites']
-                prereq_text = ', '.join(str(p) for p in prerequisites) if prerequisites else 'None'
+                prereq_text = prerequisites if prerequisites and prerequisites != 'None' else 'None'
                 response_text += f"- {course_name} (Prerequisites: {prereq_text})\n"
     else:
         response_text = f"Sorry, I couldn't find course recommendations for the major in {major}."

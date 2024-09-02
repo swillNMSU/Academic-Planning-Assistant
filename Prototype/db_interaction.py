@@ -62,7 +62,7 @@ def get_course_recommendations(major):
                 SELECT 
                     c.name AS course_name, 
                     s.semester_name, 
-                    NULL AS prerequisites -- Placeholder if prerequisites are added later
+                    c.prerequisites AS prerequisites
                 FROM courses c
                 JOIN course_semester_mapping csm ON c.course_id = csm.course_id
                 JOIN semesters s ON csm.semester_id = s.semester_id
@@ -80,10 +80,10 @@ def get_course_recommendations(major):
                     course_name, semester_name, prerequisites = row
                     if semester_name not in recommendations:
                         recommendations[semester_name] = []
-                    
+
                     recommendations[semester_name].append({
                         "course_name": course_name,
-                        "prerequisites": prerequisites  # This is just a placeholder, update if necessary
+                        "prerequisites": prerequisites if prerequisites else "None"
                     })
         except Exception as e:
             print(f"Error fetching course recommendations for {major}: {e}")
