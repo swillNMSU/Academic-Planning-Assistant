@@ -1,5 +1,7 @@
 function sendRequest() {
     const userInput = document.getElementById('userInput').value;
+    const completedCourses = document.getElementById('completedCoursesInput').value.split(',').map(c => c.trim());
+    const courseLoad = document.getElementById('courseLoadInput').value || 12;
     const responseArea = document.getElementById('responseArea');
     const flowchartContainer = document.getElementById('flowchartContainer');
     const loading = document.getElementById('loading');
@@ -19,7 +21,7 @@ function sendRequest() {
                 queryText: userInput,
                 // Modify this part based on how you determine the intent from user input
                 intent: { displayName: userInput.includes('?') ? 'GenerateAdvice' : 'ChooseMajor' },
-                parameters: { Major: userInput }
+                parameters: { Major: userInput, completed_courses: completedCourses, course_load: courseLoad }
             }
         })
     })

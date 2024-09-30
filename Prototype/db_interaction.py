@@ -1,5 +1,6 @@
 import psycopg2
 from pymongo import MongoClient
+import re
 
 # PostgreSQL Connection Setup
 def get_postgres_connection():
@@ -91,6 +92,42 @@ def get_course_recommendations(major):
             conn.close()
     return recommendations
 
+def parse_credits(credits_str):
+    # Use regex to extract the number at the start of the string (e.g., "4 Credits")
+    match = re.search(r'\d+', credits_str)
+    if match:
+        return int(match.group(0))  # Convert the matched number to an integer
+    return 0  # Return 0 if no match is found
+
+def fetch_remaining_courses(major, completed_courses):
+    conn = get_postgres_connection()
+    remaining_courses = []
+    
+    if conn:
+        try:
+            with conn.cursor() as cur:
+                # Fetch remaining courses for the major, excluding completed ones
+                cur.execute("""
+                SELECT 
+                    c.name AS course_name,
+                    c.prerequisites, 
+                    c.credits
+                FROM courses c
+                JOIN course_semester_mapping csm ON c.course_id = csm.course_id
+                WHERE csm.major_id = (
+                    SELECT major_id FROM majors WHERE major_name = %s
+                )
+                AND c.name NOT IN %s
+                ORDER BY csm.semester_id;
+                """, (major, tuple(completed_courses)))
+                
+                remaining_courses = cur.fetchall()
+        except Exception as e:
+            print(f"Error fetching remaining courses: {e}")
+        finally:
+            conn.close()
+
+    return [{'course_name': row[0], 'prerequisites': row[1], 'credits': parse_credits(row[2])} for row in remaining_courses]
 
 
 # Example Usage
