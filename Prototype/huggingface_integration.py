@@ -2,6 +2,7 @@ import transformers
 import torch
 from db_interaction import get_course_recommendations, fetch_remaining_courses
 from huggingface_hub import login
+import os
 
 # from transformers import BartForConditionalGeneration, BartTokenizer
 # import random
@@ -51,7 +52,10 @@ from huggingface_hub import login
 # if __name__ == "__main__":
 #     test_query = "I'm interested in video game development, what major should I choose?"
 #     print(process_query_with_bart(test_query))
-
+# Set the token explicitly for testing
+token = os.getenv("HF_TOKEN")  # Retrieve the token from the environment variable
+# print(token)
+login(token=token)
 
 # Initialize Llama 3.1 using the Transformers pipeline
 model_id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
