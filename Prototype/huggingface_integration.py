@@ -52,8 +52,6 @@ from huggingface_hub import login
 #     test_query = "I'm interested in video game development, what major should I choose?"
 #     print(process_query_with_bart(test_query))
 
-# Use your API token
-login(token="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")
 
 # Initialize Llama 3.1 using the Transformers pipeline
 model_id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
