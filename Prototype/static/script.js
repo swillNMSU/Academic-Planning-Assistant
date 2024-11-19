@@ -1,3 +1,49 @@
+// Upload degree audit to extract completed and remaining courses
+function uploadDegreeAudit() {
+    const fileInput = document.getElementById('degreeAuditUpload');
+    const file = fileInput.files[0];
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    // Show a loading indicator (optional)
+    const loading = document.getElementById('loading');
+    loading.style.display = 'block';
+
+    fetch('/upload', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Check for response text and course plan (flowchartData)
+        if (data.fulfillmentMessages && data.fulfillmentMessages[0].text.text[0]) {
+            const responseArea = document.getElementById('responseArea');
+            
+            // Format the response text as HTML
+            const formattedText = data.fulfillmentMessages[0].text.text[0]
+                .replace(/(FA|SP) (\d{4}):/g, '<h3>$1 $2</h3><ul>')
+                .replace(/ - (.+?)\./g, '<li><strong>$1.</strong></li>')
+                + '</ul>';
+            
+            responseArea.innerHTML = formattedText;
+        }
+
+        // If flowchart data is provided, create the flowchart
+        if (data.flowchartData && data.flowchartData.length > 0) {
+            createFlowchart(data.flowchartData);
+        }
+
+        // Hide the loading symbol once the data is processed
+        loading.style.display = 'none';
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        document.getElementById('responseArea').innerText = "Error processing your request.";
+        loading.style.display = 'none'; // Hide the loading symbol in case of an error
+    });
+}
+
 function sendRequest() {
     const userInput = document.getElementById('userInput').value;
     const completedCourses = document.getElementById('completedCoursesInput').value.split(',').map(c => c.trim());
@@ -30,9 +76,6 @@ function sendRequest() {
         console.log(data)
         responseArea.innerText = data.fulfillmentMessages[0].text.text[0];
         loading.style.display = 'none'; // Hide the loading symbol
-
-        const semesters = data.fulfillmentMessages[1].flowchartData;
-        createFlowchart(semesters);
     })
     .catch((error) => {
         console.error('Error:', error);
@@ -58,8 +101,8 @@ function createFlowchart(semesters) {
         semesterDiv.id = `semester-${index}`;
         semesterDiv.className = 'semester-box';
         semesterDiv.style.position = 'absolute';
-        // semesterDiv.style.top = `${posY * index + 10}px`;
-        // semesterDiv.style.left = `${posX}px`;
+        // semesterDiv.style.top = ${posY * index + 10}px;
+        // semesterDiv.style.left = ${posX}px;
         semesterDiv.style.top = `${initialPosY + index * verticalSpacing}px`; // Position based on index
         semesterDiv.style.left = `${initialPosX + index * horizontalSpacing}px`; // Horizontal positioning
         semesterDiv.style.padding = '10px';

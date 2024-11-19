@@ -1,0 +1,160 @@
+/* General Settings */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF; /* White background */
+    color: #8C0B42; /* Crimson text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #8C0B42; /* Crimson background */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center; /* Center-align all content */
+    align-items: center;
+    position: relative; /* Allows absolute positioning for additional elements */
+}
+
+.navbar-logo {
+    display: inline-block;
+}
+
+.navbar-logo h1 {
+    color: #FFFFFF; /* White text */
+    font-size: 24px;
+    margin: 0 auto; /* Center-align text within its container */
+    text-align: center;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    color: #FFFFFF; /* White text */
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #F8F8F8; /* Slightly lighter white */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: #8C0B42; /* Crimson background */
+    color: #FFFFFF; /* White text */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #FFFFFF; /* White text */
+}
+
+/* Main Content */
+.main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #FFFFFF; /* White background */
+    color: #8C0B42; /* Crimson text */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Upload Section */
+.upload-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.upload-section button {
+    background-color: #8C0B42; /* Crimson button */
+    color: #FFFFFF; /* White text */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.upload-section button:hover {
+    background-color: #660000; /* Darker crimson */
+}
+
+.upload-section input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #8C0B42; /* Crimson border */
+}
+
+/* Response Section */
+.response-section {
+    margin-top: 20px;
+}
+
+.response-area {
+    background-color: #F8F8F8; /* Light gray */
+    color: #8C0B42; /* Crimson text */
+    border: 1px solid #8C0B42; /* Crimson border */
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Flowchart Section */
+.flowchart-section {
+    margin-top: 30px;
+}
+
+.flowchart-container {
+    background-color: #F8F8F8; /* Light gray */
+    border: 1px solid #8C0B42; /* Crimson border */
+    border-radius: 8px;
+    padding: 20px;
+    height: 500px;
+    overflow: auto;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: #8C0B42; /* White text */
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}

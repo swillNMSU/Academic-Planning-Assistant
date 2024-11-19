@@ -53,6 +53,41 @@ def log_user_session(user_id, session_data):
             print(f"Error logging user session: {e}")
     return None
 
+def fetch_course_id(course_names):
+    conn = get_postgres_connection()
+    if conn:
+        try:
+            cursor = conn.cursor()
+
+
+            # Build the SQL query dynamically based on the list of course names
+            like_clauses = " OR ".join([f"name LIKE '%{course}%'" for course in course_names])
+
+            
+            query = f"""
+            SELECT course_id, name
+            FROM courses
+            WHERE {like_clauses};
+            """
+            
+            # Execute the query
+            cursor.execute(query)
+            
+            # Fetch the course IDs
+            course_ids = cursor.fetchall()
+
+            # Convert the result into a tuple of course IDs
+            course_ids_tuple = tuple(course_id[0] for course_id in course_ids)
+
+            # Close cursor and connection
+            cursor.close()
+            conn.close()
+
+            return course_ids_tuple
+        except Exception as e:
+            print(f"Error fetching course IDs: {e}")
+            return ()
+
 def get_course_recommendations(major):
     conn = get_postgres_connection()
     recommendations = {}
@@ -128,6 +163,45 @@ def fetch_remaining_courses(major, completed_courses):
             conn.close()
 
     return [{'course_name': row[0], 'prerequisites': row[1], 'credits': parse_credits(row[2])} for row in remaining_courses]
+
+def get_remaining_courses(major_name, completed_courses):
+    conn = get_postgres_connection()
+    if conn:
+        try:
+            cursor = conn.cursor()
+
+            # Ensure completed_courses is a tuple
+            if len(completed_courses) == 1:
+                completed_courses_tuple = (completed_courses[0],)
+            else:
+                completed_courses_tuple = tuple(completed_courses)
+
+            # SQL query to fetch remaining courses
+            query = """
+            SELECT c.name, c.credits, c.description, c.prerequisites
+            FROM courses c
+            JOIN course_semester_mapping csm ON c.course_id = csm.course_id
+            JOIN majors m ON csm.major_id = m.major_id
+            WHERE m.major_name = %s
+            AND c.course_id NOT IN %s;
+            """
+
+            # Execute the query with major_name and completed_courses_tuple
+            cursor.execute(query, (major_name, completed_courses_tuple))
+            
+            # Fetch and display remaining courses
+            remaining_courses = cursor.fetchall()
+
+            # Close cursor and connection
+            cursor.close()
+            conn.close()
+
+            return remaining_courses
+
+        except Exception as e:
+            print(f"Error fetching remaining courses: {e}")
+            return []
+
 
 
 # Example Usage

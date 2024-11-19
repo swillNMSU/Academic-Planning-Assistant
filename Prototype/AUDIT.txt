@@ -1,0 +1,638 @@
+Page 1 of 7
+Minimum Grade Point Average and Credit Hour Requirements
+Your Bachelor's degree requires a minimum of 120 completed
+degree hours, a minimum GPA of 2.00 in all course work,
+and completing at least 30 of the last 36 hours at NMSU.
+OK
+AT LEAST ONE REQUIREMENT HAS NOT BEEN SATISFIED
+Bachelor of Science - Computer Science - Big Data and Data Scien
+College of Arts & Sciences 
+ 800735961
+ 
+ 202420
+CATALOG YEAR: 
+ 10/28/24 - 11:59 AM
+PREPARED: 
+Williams, Steven
+ 2BSCIC S BDAS
+PROGRAM CODE: 
+ ******* NEW MEXICO STATE UNIVERSITY STAR REPORT  ********
+This student academic requirements (STAR) report is a planning
+tool and is not a contract between the student and the
+university. This report has been designed to assist you with
+planning courses to complete degree requirements. Every
+effort has been made to ensure its accuracy; however, final
+confirmation of degree requirements is subject to department,
+college and university approval. Students must apply for
+degrees within deadline dates for the semester in which they
+anticipate to graduate. If you have questions about
+your degree audit, please contact your academic advisor. 
++
+Residency requirement: At least 30 of the last 36
+degree credits must be completed at NMSU.
+56.0CREDITS
++
+Upper-division courses: Student must complete
+48 hours between the 300-499 or 3000-4999 level.
+Total upper- division hours needed may be greater than
+the minimum needed to reach 48.
+135.0CREDITS
++
+Total degree hours earned (excludes remedial courses,
+applied courses beyond 9 credits, and PE activity
+courses beyond 9 credits). Total hours needed may be
+greater than the minimum needed to reach 120.
+3.604GPA
++
+Cumulative grade point average
+Page 2 of 7
+General Education Requirements Area III & IV
+(10-11 Credits)
+Laboratory Sciences and Social/Behavioral Sciences
+One course needs to be completed from each area for
+a total of 7 credits. The additional course can be
+completed from either area of your selection.
+OK
+General Education Requirements Area II (3-4 Credits)
+Mathematics
+OK
+General Education Requirements Area I (9-10 Credits)
+Communications
+OK
+Mathematics Basic Skills Requirement - satisfied.
+English Basic Skills Requirement - satisfied.
+Term
+Course
+Credits Grade
+Title
+21SP
+COMM1115G
+3.0 A
+INTRODUCTION TO COMMUNICATION
++
+Complete three credits of Oral Communication.
+Term
+Course
+Credits Grade
+Title
+20FA
+ENGL218G
+3.0 A
+TCHNCL & SCNTFC CMNCTN
+CONVERTED TO: ENGL2210G
++
+Complete three credits of English Composition - Level 2
+Term
+Course
+Credits Grade
+Title
+19S1
+ENGL111G
+4.0 CR
+COMPOSITION & RHETORIC I
+CONVERTED TO: ENGL1110G
++
+Complete three credits of English Composition - Level 1
+with a grade of C or better.
+Term
+Course
+Credits Grade
+Title
+21S1
+MATH1521G
+4.0 A
+CALCULUS II
++
+Complete 3-4 credits of college level Mathematics or
+higher.
++
+Complete 3-4 credits of Laboratory Sciences or
+Social/Behavioral Science.
+Term
+Course
+Credits Grade
+Title
+20S1
+GOVT100G
+3.0 CR
+AMER NATIONAL GOVT
+CONVERTED TO: POLS1120G
++
+Social/Behavioral Sciences.
+Term
+Course
+Credits Grade
+Title
+22FA
+ASTR1115G
+4.0 A-
+INTRO ASTRO
++
+Laboratory Sciences.
+Page 3 of 7
+Viewing a Wider World Requirement
+Take two courses (six credits) from separate colleges from
+the Viewing a Wider World list in the Catalog (courses
+are designated with a V). One of the two courses must be
+in a college other than your own. Both courses must
+be outside of your major department (including cross-
+listed courses). If the course is within your own college,
+it cannot be used toward the Viewing a Wider World
+requirement if it is being used to fulfill a requirement
+for your major.
+OK
+General Education Electives (3-4 Credits)
+OK
+General Education Requirements Area VI (3 Credits)
+Creative and Fine Arts
+OK
+General Education Requirements Area V (3 Credits)
+Humanities
+OK
+Term
+Course
+Credits Grade
+Title
+20FA
+CHEM111G
+4.0 B
+GENERAL CHEMISTRY I
+CONVERTED TO: CHEM1215G
+Term
+Course
+Credits Grade
+Title
+21FA
+PHIL1115G
+3.0 A-
+INTRO TO PHILOSOPHY
++
+Humanities.
+Term
+Course
+Credits Grade
+Title
+21FA
+THEA1110G
+3.0 A
+INTRO TO THEATRE
++
+Creative and Fine Arts.
+Term
+Course
+Credits Grade
+Title
+20FA
+MATH191G
+4.0 B
+CALCULUS I
+CONVERTED TO: MATH1511G
++
+Complete any additional 3-4 credit course with the 'G'
+distinction that exceeds the minimum requirement above
+excluding Area I: Communications and any crosslisted
+courses.
+Term
+Course
+Credits Grade
+Title
+23SP
+ICT 350V
+3.0 A
+INTRO TO  INFO SEC PRIVACY
++
+College of Engineering
+Term
+Course
+Credits Grade
+Title
+23SP
+CEPY4110V
+3.0 A
+INTRDN TO COUNSELING
++
+College of Health, Education and Social Transformation
+Page 4 of 7
+Departmental Requirements - 52 credits
+A course can only satisfy one requirement.
+OK
+FOR THE BS IN CHEMISTRY, BIOCHEMISTRY, COMPUTER SCIENCE,
+CYBERSECURITY, MATHEMATICS - APPLIED MATHEMATICS EMPHASIS,
+MATHEMATICS - ACTUARIAL SCIENCE AND INSURANCE,
+MATHEMATICS - SECONDARY EDUCATION, MATHEMATICS - FOUNDATIONS
+MATHEMATICS - GENERAL MATHEMATICS, MATHEMATICS - PROBABLITY AND
+STATISTICS. THERE IS NO SECOND LANGUAGE REQUIREMENT.
+COURSES IN THE MAJOR: A grade of C- or better is required
+in all departmental and non-departmental requirements.
+Term
+Course
+Credits Grade
+Title
+22SP
+C S 372
+4.0 A
+DATA STRCTRS & ALGRTHMS
++
+Take C S 372, Data Structures and Algorithms.
+Term
+Course
+Credits Grade
+Title
+22SP
+C S 371
+4.0 A
+SOFTWARE DEVELOPMENT
++
+Take C S 371, Software Development.
+Term
+Course
+Credits Grade
+Title
+22SP
+C S 370
+4.0 B
+COMPILERS & AUTOMATA
++
+Take C S 370, Compilers and Automata.
+Term
+Course
+Credits Grade
+Title
+21SP
+C S 273
+4.0 A-
+MACHINE PROG & ORG
++
+Take CS 273, Machine Programming & Organization.
+Term
+Course
+Credits Grade
+Title
+21FA
+C S 272
+4.0 B+
+INTRDN-DATA STRCTRS
++
+Take C S 272, Intro. to Data Structures.
+Term
+Course
+Credits Grade
+Title
+21FA
+C S 278
+4.0 B
+DISCRETE MATH FOR CS
++
+Take C S 278/MATH 278, Discrete Math for Computer
+Science.
+Term
+Course
+Credits Grade
+Title
+21SP
+C S 271
+4.0 B
+O O PROGRAMMING
++
+Take C S 271, Intro. to Object-Oriented Programming.
+Term
+Course
+Credits Grade
+Title
+20FA
+C S 172
+4.0 B
+COMPUTER SCIENCE I
++
+Take CS 172, Computer Science I.
+Page 5 of 7
+Non-departmental Requirements - 35 credits
+OK
+Term
+Course
+Credits Grade
+Title
+22FA
+C S 517
+3.0 A
+DIGITAL GAME DESIGN
+ACCEPT GRAD COURSE-UG AUDIT
+23FA
+C S 504
+3.0 A-
+COMPUTER NETWORKS I
+ACCEPT GRAD COURSE-UG AUDIT
+EXCEPTION: CS517/CS477, CS504/CS484
++
+Take two courses from the following:
+Term
+Course
+Credits Grade
+Title
+22FA
+C S 502
+3.0 B+
+DATABASE MGT SYS I
+ACCEPT GRAD COURSE-UG AUDIT
+EXCEPTION: ACCEPT C S 502/C S 482
++
+Complete C S 482, Data Management Systems I.
+Term
+Course
+Credits Grade
+Title
+23FA
+C S 448
+4.0 A+
+SENIOR PROJECT
++
+Take C S 448, Senior Project or C S 449, Senior Thesis.
+Term
+Course
+Credits Grade
+Title
+23FA
+C S 474
+3.0 B
+OPERATING SYSTEMS 1
++
+Take C S 474, Operating Systems I.
+Term
+Course
+Credits Grade
+Title
+22FA
+C S 471
+3.0 B
+PROG LANG STRUCTURE I
++
+Take C S 471, Programming Language Structure I.
+Term
+Course
+Credits Grade
+Title
+23SP
+C S 419
+1.0 S
+ETHICS AND COMPUTING
++
+Take C S 419, Computing Ethics and Social Implications
+of Computing.
++
+Take MATH 1511G & MATH 1521G, Calculus &
+Analytical Geom. I & II
+Term
+Course
+Credits Grade
+Title
+22FA
+MATH2415
+3.0 B
+INTRO TO LINEAR ALGEBRA
++
+Take MATH 2415, Introduction to Linear Algebra, or
+MATH 4230, Vector Spaces and Matrix Algebra.
+Term
+Course
+Credits Grade
+Title
+20FA
+ENGL218G
+3.0 A
+TCHNCL & SCNTFC CMNCTN
+CONVERTED TO: ENGL2210G
++
+Take ENGL 2210G.
+Term
+Course
+Credits Grade
+Title
+21SP
+COMM1115G
+3.0 A
+INTRODUCTION TO COMMUNICATION
++
+Take COMM 1130G or COMM 1115G or HNRS 2175G.
+Page 6 of 7
+Electives used to bring total to 120 credit hours or
+beyond
+Computer Science - Big Data and Data Science Concentration
+NO
+Term
+Course
+Credits Grade
+Title
+22FA
+ASTR1115G
+4.0 A-
+INTRO ASTRO
+23SP
+GEOL1110G
+4.0 A+
+PHYSICAL GEOLOGY
++
+Take two of the following:
+ASTR 1115G, BIOL 2610G/BIOL2610L, BIOL2110G/BIOL2110L
+CHEM 1215G, CHEM 1225G, GEOG 1110G, GEOL 1110G,
+HNRS 2116G, PHYS 1230G/PHY1230L, PHYS 1240G/PHYS1240L,
+PHYS 1310G/PHYS 1310L, or PHYS 1320G/PHYS1320L
+Note: Course in this requirement may meet General
+Education requirements.
+Term
+Course
+Credits Grade
+Title
+20FA
+CHEM111G
+4.0 B
+GENERAL CHEMISTRY I
+CONVERTED TO: CHEM1215G
++
+Take one of the following:
+Term
+Course
+Credits Grade
+Title
+21FA
+A ST311
+3.0 A+
+STATISTICAL APPLCN
++
+Take one of the following: A ST 311, STAT 470,
+or STAT 3110.
+Term
+Course
+Credits Grade
+Title
+23SP
+MATH377
+3.0 B
+INTRO NUMERICAL MTHDS
+CONVERTED TO: MATH3140
++
+Take one of: MATH 3110, MATH 3120, MATH 3140,
+MATH 3160, MATH 4320 or MATH 4330.
+Term
+Course
+Credits Grade
+Title
+20FA
+MATH191G
+4.0 B
+CALCULUS I
+CONVERTED TO: MATH1511G
+21S1
+MATH1521G
+4.0 A
+CALCULUS II
+SELECT FROM:
+C S 487,475,485,488
+-
+Complete nine credits from the following.
+Term
+Course
+Credits Grade
+Title
+22SP
+C S 371
+4.0 A
+SOFTWARE DEVELOPMENT
++
+Complete C S 371.
+Page 7 of 7
+************************ END OF ANALYSIS ************************
+NMSU LEGEND
+Courses not earning academic credit
+ ==========================================================
+=======================*    LEGEND    *==========================
+                      DEGREE AUDIT CODES:
+NO  REQUIREMENT NOT COMPLETE     {R   REPEAT - GRADE IN GPA
+OK  REQUIREMENT COMPLETE         {X   REPEAT - GRADE NOT IN GPA
+IP  REQUIREMENT IN PROGRESS      {P   PLANNED COURSE GRADE IN GPA
++   SUB-REQUIREMENT COMPLETE     < {A ADJUSTED CREDIT OPTION
+-   SUB-REQUIREMENT NOT COMPLETE {S   COURSE SPLIT
+IN-P---> IN-PROGRESS SUMMARY     {N REMEDIAL COURSE-GRADE IN GPA
+                                 {* REPEAT - IN-PROGRESS
+=================================================================
+=====*  THIS AUDIT IS SUBJECT TO ADMINISTRATIVE APPROVAL   *=====
+ AND ASSUMES IN-PROGRESS COURSES WILL BE COMPLETED SUCCESSFULLY
+========================================================== 
+Term
+Course
+Credits Grade
+Title
+-
+18SP
+C S 110
+3.0 CR
+COMPUTER LITERACY
+CONVERTED TO: BCIS1110
+18FA
+SPAN100 E
+3.0 CR
+SPANISH ELECTIVE LD
+19FA
+SPAN111
+4.0 CR
+ELEMENTARY SPANISH I
+CONVERTED TO: SPAN1110
+20SP
+SOC 100 E
+3.0 CR
+SOCIOLOGY ELECTIVE LD
+20FA
+C S 409
+1.0 A+
+INDEPENDENT STUDY
+21SP
+C S 409
+1.0 A+
+INDEPENDENT STUDY
+21FA
+C S 409
+1.0 A+
+INDEPENDENT STUDY
+22SP
+C S 343
+3.0 A
+ALGORITHM DESIGN & IMPL
+22SP
+C S 409
+1.0 A
+INDEPENDENT STUDY
+22SP
+C S 409
+1.0 A+
+INDEPENDENT STUDY
+22FA
+C S 409
+1.0 A+
+INDEPENDENT STUDY
+23SP
+C S 505
+3.0 A
+ARTIFICIAL INTEL I
+ACCEPT GRAD COURSE-UG AUDIT
+23FA
+ACES1210
+1.0 A
+FIN FITNESS-COLLEGE STUDENTS
+23FA
+PHED1290
+1.0 A
+TEAM SPORT:
+23FA
+PHED1290
+1.0 A
+TEAM SPORT:
+23FA
+PHED1620
+1.0 A
+FITNESS:
+Term
+Course
+Credits Grade
+Title
+18S1
+HIST111G
+0.0 GR
+GLOBAL HIST TO 1500
+CONVERTED TO: HIST1130G
+18S1
+HIST112G
+0.0 GR
+GLOBAL HISTORY SINCE 1500
+CONVERTED TO: HIST1140G
+19S1
+HIST201G
+0.0 GR
+INTRO TO EARLY AMERICAN HISTO
+CONVERTED TO: HIST1110G
+19S1
+HIST202G
+0.0 GR
+INTRO TO RECENT AMERICAN HIST
+CONVERTED TO: HIST1120G
+19S1
+MATH190G
+0.0 GR
+TRIG AND PRE-CALCULUS
+CONVERTED TO: MATH1250G
+21SP
+MATH1521G
+0.0 D
+{X
+                          
+CALCULUS II
+23SP
+C S 409
+0.0 A
+{X
+                          
+INDEPENDENT STUDY
+23FA
+C S 409
+0.0 A+
+{X
+                          
+INDEPENDENT STUDY
